@@ -123,3 +123,29 @@ main{
 .skill-title, .skill-desc{
     text-align: center;
 }
+/* Resume Section Styles */
+.resume-container{
+    display: flex;
+    gap: 80px;
+}
+.resume-title{
+    text-align: center;
+    margin: 80px 0;
+}
+.education-desc, .experience-desc{
+    color: #757575;
+}
+.education-subtitle, .experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.btn-center{
+    text-align: center;
+    margin-top: 50px;
+}
+.education-title, .experience-title{
+    font-size: 20px;
+    margin-bottom: 0;
+}
