@@ -38,6 +38,9 @@ nav h2 {
   font-weight: 800;
   font-size: 45px;
 }
+nav h2 span{
+    color: #FD6E0A;
+}
 nav ul{
     display: flex;
     align-items: center;
@@ -148,4 +151,30 @@ main{
 .education-title, .experience-title{
     font-size: 20px;
     margin-bottom: 0;
+}
+/* Footer Styles */
+footer{
+    display: flex;
+    gap: 200px;
+    padding: 130px 230px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+input[type="text"], input[type="email"]{
+    height: 24px;
+    width: 75%;
+    display: block;
+    padding: 18px 30px;
+    margin-bottom: 10px;
+    border: none;
+    color: #757575;
+    background-color: white;
+}
+textarea{
+    border: none;
+    padding: 17px 30px;
+    margin-bottom: 5px;
+    width: 75%;
 }
